@@ -1,0 +1,96 @@
+body{
+	font-size:12px;
+}
+
+    
+@media screen and (max-width: 48em) {
+  .row-offcanvas {
+	position: relative;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-left .sidebar-offcanvas {
+	left: -33%;
+  }
+  .row-offcanvas-left.active {
+	left: 33%;
+	margin-left: -6px;
+  }
+  .sidebar-offcanvas {
+	position: absolute;
+	top: 0;
+	width: 33%;
+	height: 100%;
+  }
+}
+   
+    
+@media screen and (max-width: 34em) {
+  .row-offcanvas-left .sidebar-offcanvas {
+	left: -45%;
+  }
+  .row-offcanvas-left.active {
+	left: 45%;
+	margin-left: -6px;
+  }
+  .sidebar-offcanvas {
+	width: 45%;
+  }
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card-block .rotate {
+  z-index: 8;
+  float: right;
+  height: 100%;
+}
+
+.card-block .rotate i {
+  color: rgba(20, 20, 20, 0.15);
+  position: absolute;
+  left: 0;
+  left: auto;
+  right: -10px;
+  bottom: 0;
+  display: block;
+  -webkit-transform: rotate(-44deg);
+  -moz-transform: rotate(-44deg);
+  -o-transform: rotate(-44deg);
+  -ms-transform: rotate(-44deg);
+  transform: rotate(-44deg);
+}
+
+.display-1 a {
+	text-decoration:none;
+}
+
+.left-menus{
+	background-color:#5cb85c!important;
+}
+.left-menus a {
+	font-size:16px;
+	color:#f1f5fa;
+}
+
+.top-nav-bar {
+    margin-bottom: 5px;
+}
+
+option:disabled {
+  color: red;
+  font-weight:bold;
+}
+
+option {
+  color: green;
+  font-weight:bold;
+}
+
+select{
+ color: green;
+  font-weight:bold;
+}
